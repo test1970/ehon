@@ -1,3 +1,13 @@
+/*
+ googleスプレッドシートのスクリプトエディタを使って
+ youtubeの動画を検索しURLをスプレッドシートに保存する
+ スクリプトを書いてみました。
+ このスクリプトだと猫しか検索していないので、他の動物も
+ 検索できるように修正してみたり自由にお使いください。
+ 
+ くわぞう
+*/
+
 function myFunction() {
   var results = YouTube.Search.list("id,snippet",{q :"猫　絵本" , maxResults: 5});
   
